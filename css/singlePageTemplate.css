@@ -152,7 +152,7 @@ footer {
 	text-align: center;
 	padding-top: 15px;
 	float: left;
-	background-color: #CBCBCB;
+	background-color: #FFFFFF;
 	padding-bottom: 12px;
 }
 .footer_column {
@@ -187,24 +187,24 @@ footer .footer_column p {
 	margin-right: 20px;
 }
 .button {
-	width: 59%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 0px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
-	transition: all 0.3s linear;
+    width: 59%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid #A4A4A4;
+    color: #474747;
+    transition: all 0.3s linear;
 }
 .button:hover {
 	background-color: #272626;
@@ -214,29 +214,29 @@ footer .footer_column p {
 	margin-bottom: 0px;
 }
 .copyright {
-	padding-top: 0px;
-	padding-bottom: opx;
-	background-color: #CBCBCB;
-	color: #FFFFFF;
-	font-weight: bold;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-	width: 30%;
-	padding-left: 24px;
+    padding-top: 0px;
+    padding-bottom: opx;
+    background-color: #FFFFFF;
+    color: #474747;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+    width: 30%;
+    padding-left: 24px;
 	font-size=13px;
 
 }
 .banner_text {
-	padding-top: 0px;
-	padding-bottom: opx;
-	background-color: #CBCBCB;
-	color: #FFFFFF;
-	font-weight: bold;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-	width: 30%;
-	padding-right: 10px;
-	padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: opx;
+    background-color: #FFFFFF;
+    color: #474747;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 20px;
 }
 .container .text_main {
 }
