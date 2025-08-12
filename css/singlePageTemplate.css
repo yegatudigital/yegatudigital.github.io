@@ -85,7 +85,10 @@ ul li:hover a {
 }
 .light {
 	font-weight: normal;
-	color: #323232;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #4F4F4F;
+	width: 80%;
 }
 .tagline {
 	text-align: center;
