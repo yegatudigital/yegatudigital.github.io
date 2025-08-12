@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en-US"><!-- InstanceBegin template="/Templates/main_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Yegatu Digital</title>
-<!-- InstanceEndEditable -->
-<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<!-- TemplateEndEditable -->
+<link href="../css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 .container header h1 {
 	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
@@ -31,8 +31,8 @@ body, td, th {
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 <body>
 <!-- Main Container -->
@@ -40,25 +40,26 @@ body, td, th {
   <!-- Navigation -->
   <header>
     <hr color="#CBCBCB" style="width:90%;height:7px;margin-left: 0">
-    <img src="images/yegatu%20digital%20no%20logos.jpg"  alt="" width="200"  class="logo"/>
+    <img src="../images/yegatu digital no logos.jpg"  alt="" width="200"  class="logo"/>
     <nav>
-      <!-- InstanceBeginEditable name="navegation bar" -->
+      <!-- TemplateBeginEditable name="navegation bar" -->
       <ul>
-        <li><a href="./index.html">HOME</a></li>
-        <li><a href="./about.html"  style="font-size:150%">ABOUT</a></li>
-        <li><a href="./tech.html">TECH</a></li>
-        <li><a href="./workshops.html">WORKSHOPS</a></li>
-        <li><a href="./media.html">MEDIA</a></li>
-        <li><a href="./team.html">TEAM</a></li>
-        <li><a href="./contact.html">CONTACT</a></li>
+        <li><a href="../index.html"  style="font-size:150%">HOME</a></li>
+        <li><a href="../about.html">ABOUT</a></li>
+        <li><a href="../tech.html">TECH</a></li>
+        <li><a href="../workshops.html">WORKSHOPS</a></li>
+        <li><a href="../media.html">MEDIA</a></li>
+        <li><a href="../team.html">TEAM</a></li>
+        <li><a href="../contact.html">CONTACT</a></li>
       </ul>
-    <!-- InstanceEndEditable --> </nav>
+    <!-- TemplateEndEditable --> </nav>
   </header>
   <hr color="#CBCBCB" style="width:90%;height:7px;margin-top:30px;margin-left: 0" >
-  <!-- InstanceBeginEditable name="main text" -->
-	<img src="images/tabocal tablets with teacher with writing assistant foto nicole grell.jpg"  style="display: block; margin=auto; padding-left:10%; text-align: center" width="60%" alt=""/>
+  <!-- TemplateBeginEditable name="main text" -->
+	<img src="../images/yegatu digital no logos but graphics.jpg" style="padding-left:5%" width="80%" alt=""/> 
+	<img src="../images/logos of partnership.png" style="padding-left:10%" width="70%" alt=""/>
     <p class="light">The Yẽgatu Digital project deploys and co-develops digital writing tools to foster the digital use of the Yẽgatu language in Baré communities in the Amazon. The Baré Indigenous people comprises about 10,000 people in 150 communities in the extreme Northwest of Brazil (Alto do Rio Negro). </p>
-  <!-- InstanceEndEditable --><!-- Footer Section -->
+  <!-- TemplateEndEditable --><!-- Footer Section -->
   <footer class="footer_specs"  style="width: 87%; align-items: center"> 
 	  <a class="banner_text">FOR THE LATEST UPDATES:</a> 
 	  <a class="button" href="https://www.instagram.com/yegatudigital/" >Instagram</a> 
@@ -72,4 +73,4 @@ body, td, th {
 </div>
 <!-- Main Container Ends -->
 </body>
-<!-- InstanceEnd --></html>
+</html>
