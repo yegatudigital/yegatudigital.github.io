@@ -64,19 +64,19 @@ nav ul li {
 }
 ul li a {
 	color: #474747;
-	text-decoration: none;
+	text-decoration: underline;
 }
 ul li:hover a {
-	color: #414040;
+	color: #000000;
 }
 .hero_header {
-	color: #282828;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
+    color: #282828;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 23px;
+    margin-bottom: 9px;
+    margin-left: 39px;
+    letter-spacing: 4px;
 }
 /* Hero Section */
 .hero {
@@ -335,10 +335,10 @@ nav ul li {
 	line-height: 22px;
 }
 .hero_header {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 22px;
-	text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 3px;
+    text-align: center;
 }
 }
 
