@@ -86,13 +86,13 @@ p a:hover {
 	font-weight: bolder;
 }
 .hero_header {
-    color: #282828;
+    color: #474747;
     text-align: left;
     margin-top: 20px;
     margin-right: 23px;
     margin-bottom: 9px;
-    margin-left: 39px;
-    letter-spacing: 4px;
+    margin-left: 2.5%;
+    letter-spacing: 0px;
 }
 /* Hero Section */
 .hero {
