@@ -52,22 +52,38 @@ header nav ul {
 	float: right;
 }
 nav ul li {
-	float: left;
-	color: #DBD7D7;
-	font-size: 14px;
-	text-align: left;
-	margin-right: 10px;
-	letter-spacing: 2px;
-	font-weight: bold;
-	transition: all 0.3s linear;
-	font-size: 15px;
+    float: left;
+    color: #DBD7D7;
+    text-align: left;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    font-size: 13px;
+}
+nav ul li a {
+	color: #474747;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #000000;
+	font-weight: bolder;
 }
 ul li a {
-	color: #474747;
+	color: #2C2C2C;
 	text-decoration: underline;
 }
 ul li:hover a {
 	color: #000000;
+	font-weight: bolder;
+}
+p a {
+	color: #474747;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #000000;
+	font-weight: bolder;
 }
 .hero_header {
     color: #282828;
@@ -198,11 +214,11 @@ footer .footer_column p {
     padding-left: 5px;
     text-align: center;
     vertical-align: middle;
-    border-radius: 0px;
+    border-radius: 7px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    border: 2px solid #A4A4A4;
+    border: 1px solid #A4A4A4;
     color: #474747;
     transition: all 0.3s linear;
 }
@@ -218,17 +234,16 @@ footer .footer_column p {
     padding-bottom: opx;
     background-color: #FFFFFF;
     color: #474747;
-    font-weight: bold;
     letter-spacing: 2px;
     border-top-width: 2px;
     width: 30%;
     padding-left: 24px;
-	font-size=13px;
+	font-size:15px;
 
 }
 .banner_text {
     padding-top: 0px;
-    padding-bottom: opx;
+    padding-bottom: 0px;
     background-color: #FFFFFF;
     color: #474747;
     font-weight: bold;
@@ -237,6 +252,7 @@ footer .footer_column p {
     width: 30%;
     padding-right: 10px;
     padding-left: 20px;
+	font-size:15px;
 }
 .container .text_main {
 }
