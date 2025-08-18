@@ -63,9 +63,70 @@ body, td, th {
 	<hr color="#646464" style="width:90%;height:0px;margin-left:0px;margin-top:-2px">
 	</header>
   <!-- InstanceBeginEditable name="main text" -->
-	<img src="../images/yegatu digital no logos but graphics.jpg" style="padding-left:5%;padding-top: 2%" width="80%" alt=""/> 
-	<img src="/images/logos of partnership.png" style="padding-left:10%" width="70%" alt=""/>
-    <p class="light">The Yẽgatu Digital project deploys and co-develops digital writing tools to foster the digital use of the Yẽgatu language in Baré <a href="index.html"> communities</a> in the Amazon. The Baré Indigenous people comprises about 10,000 people in 150 communities in the extreme Northwest of Brazil (Alto do Rio Negro). </p>
+
+	<figure>
+		<img src="../images/writing assistant prototypes.png"  style="display: block; margin=auto; padding-left:5%; padding-top: 5%; padding-bottom: 2%;" width="70%" alt=""/>
+		<figcaption class="light" style="padding-left:2%; padding-bottom: 2%; ">Evolução e tipos de assistentes de escrita desenvolvidos para o Guarani Mbya e o Nheegatu.</figcaption>
+	</figure>
+	
+    <p class="light">O laboratório da IBM Research no Brasil, em parceria com a Universidade de São Paulo, vem desenvolvendo ferramentas de leitura/escrita baseadas em IA para línguas indígenas nos últimos 3 anos no contexto do projeto PROLIND do C4AI. As ferramentas de apoio à escrita são essenciais para facilitar o uso de idiomas na Internet e nas mídias sociais.</p>
+	
+	<p class="light">A IBM Research desenvolveu tradutores, corretores ortográficos, dicionários eletrônicos e completadores de palavras para línguas indígenas. Essas ferramentas, desenvolvidas usando tecnologias de IA/LLM de última geração, foram incorporadas em aplicativos móveis e da web fáceis de usar. As ferramentas foram desenvolvidas usando dados linguísticos (como dicionários) seguindo diretrizes éticas, sem coleta de dados de grupos indígenas.</p>
+	
+	<p class="light" style="font-weight: bolder;"> ASSISTENTES DE ESCRITA</p>
+	
+	<p class="light">O Projeto PROLIND construiu vários protótipos de assistentes de escrita, começando em 2023 com alguns protótipos iniciais desenvolvidos para a língua Guarani Mbya. Em oficinas com os alunos do ensino médio da comunidade Tenondé-Porã, na cidade de São Paulo, ideias e protótipos foram explorados pelos alunos. A partir da participação dos alunos e professores (críticas, comentários e observação de uso), os auxiliares de escrita foram avaliados e novos protótipos foram desenvolvidos.</p>
+	
+	<p class="light">A imagem no topo da página mostra a evolução do protótipo Guarani Mbya para os três auxiliares de escrita para a língua Nheengatu que foram desenvolvidos. O <a style="font-weight:bolder;">AInLI</a> é um assistente de escrita para ser usado na Internet; o <a style="font-weight:bolder;">ACEnLI</a> é um assistente de escrita desenvolvido para ser usado em smartphones e tablets, focado em sentenças individuais, e para o uso diário; e o <a style="font-weight:bolder;">EInLI</a> é um editor baseado na Internet destinado a ser usado na escrita de textos mais longos com várias linhas.</p>
+	
+	<p class="light">O assistente de escrita <a style="font-weight:bolder;">ACEnLI</a> será o primeiro usado pelos alunos do projeto Yẽgatu Digital. O aplicativo foi desenvolvido inicialmente por alunos do Insper com base no Nheengatu AInLI, utilizando ferramentas baseadas em API desenvolvidas pela IBM Research. Ele empresta conceitos de design familiares e recursos de outros aplicativos de tradução móvel. No entanto, expande os conceitos e funcionalidades do AInLI para um cenário móvel, a ser testado e refinado com falantes do idioma.</p>
+
+
+	
+	<p class="light" style="font-weight: bolder;">FERRAMENTAS DE TRADUÇÃO</p>
+	
+	<figure>
+		<img src="../images/finetuning translators.png"  style="display: block; margin=auto; padding-left:17%; text-align: center; padding-left:10%; padding-top: 2%; padding-bottom: 2%; " width="60%" alt=""/>
+		<figcaption class="light" style="padding-left:10%; padding-bottom: 2%; ">Processo de fine-tuning do tradutor WMT-19 para tradutoes Nheengatu-English.</figcaption>
+	</figure>
+	
+	
+	
+	<p class="light">As ferramentas de <a style="font-weight:bolder;">tradução</a> usadas nos protótipos do Nheengatu foram construídas como resultado da solução de desafios técnicos e do desenvolvimento de soluções para criar tradutores automáticos bilíngues (MTs) para línguas indígenas com base apenas em dados linguísticos disponíveis publicamente, como visto na figura acima.</p>
+	
+	<p class="light">Dada a quantidade extremamente limitada de dados disponíveis para a maioria das línguas indígenas, especialmente para as ameaçadas de extinção, o desenvolvimento de tradutores para essas línguas só é viável hoje devido aos recentes desenvolvimentos na tecnologia de IA, como o uso de tecnologias Transformer e a disponibilidade de Large Language Models (LLMs) pré-treinados abertos. Nossa equipe se concentrou não apenas em superar os desafios técnicos associados, mas também em garantir que a tecnologia que criamos seja útil e atenda às necessidades dos povos indígenas, o que estamos realizando ao tentar trabalhar o máximo possível diretamente com eles.</p>
+	
+	
+	<p class="light">Normalmente, os tradutores automáticos para idiomas de poucos recursos, como línguas indígenas ameaçadas de extinção, envolvem LLMs genéricos, pré-treinados em grandes corpus usando técnicas auto-supervisionadas com altos níveis de dados e <a style="font-weight:bolder;">fine-tuning</a> com um corpus paralelo muito menor no idioma de destino. Além disso, alguns trabalhos sugerem que a qualidade da tradução é melhorada com o uso de modelos multilíngues. No entanto, nossa experiência na construção de tradutores para línguas indígenas nos levou a uma direção diferente. Em nosso trabalho, analisando os resultados de experimentos de criação de tradutores bilíngues e multilíngues para 39 línguas indígenas brasileiras, usando dados bíblicos, vimos que tradutores multilíngues geralmente alcançam resultados de precisão falsamente melhorados adotando uma estratégia de "trapaça" de memorização.</p>
+	
+	<p class="light"> Therefore, we have based our development on bilingual translators.  We have also found that the most significant improvements in accuracy were obtained by manually enhancing the quality of the fine-tuning training data used to create bilingual translators. These results were further validated  through a manual evaluation of the effectiveness of a translator for the Nheengatu language. By doing this, in initial experiments, using manual evaluation of the outputs, we have observed that about 65% of about 200 test outputs produced were perfect or mostly correct, despite being trained with only about 6,200 pairs of sentences, extracted mostly from dictionaries, lexicons, and bilingual story- and textbooks.</p>
+	
+	<p class="light">Por isso, baseamos nosso desenvolvimento em tradutores bilíngues.  Também descobrimos que as melhorias mais significativas na precisão foram obtidas aprimorando manualmente a qualidade dos dados de treinamento de fine-tuning usados para criar os tradutores bilíngues. Esses resultados foram validados por meio de uma avaliação manual da eficácia de um tradutor para a língua Nheengatu. Ao fazer isso, em experimentos iniciais, usando avaliação manual dos resultados, observamos que cerca de 65% dos cerca de 200 resultados de testes produzidos eram perfeitos ou quase corretos, apesar de serem treinados com apenas cerca de 6.200 pares de frases, extraídos principalmente de dicionários, léxicos e livros didáticos e de histórias bilíngues.</p>
+
+	
+	<p class="light" style="font-weight: bolder;"> CORRETORES ORTOGRÁFICOS E OUTRAS FERRAMENTAS</p>
+	
+	<p class="light">As principais ferramentas que estamos desenvolvendo são:</p>
+	<ol class="light">
+		<li class="light">Dicionário de palavras: uma ferramenta para fornecer acesso a palavras, seus significados e traduções com base em busca aproximada;</li>
+		<li class="light">Completador de palavras: uma ferramenta que sugere palavras que podem completar uma palavra parcialmente digitada;</li>
+		<li class="light">Preditor da próxima palavra: uma ferramenta que sugere palavras após uma palavra completamente digitada;</li>
+		<li class="light">Corretor ortográfico: uma ferramenta que sugere correções nas palavras de uma frase parcial ou totalmente digitada.</li>
+	</ol>
+	
+	<p class="light">O <a style="font-weight:bolder;">dicionário de palavras</a> usado nos protótipos do Nheengatu foi implementado pesquisando um banco de dados de palavras extraídas de dicionários reais disponíveis para o idioma. Esse banco de dados continha descrições associadas em português e inglês para cada palavra. Uma falha dessa versão foi não listar variações válidas de palavras básicas, como o uso de prefixos e sufixos para indicar gênero, número e tempos verbais.  A maioria dos dicionários digitais para os principais idiomas usados em ferramentas de edição geralmente incorpora o manuseio de variações programando regras diretamente à mão, um processo demorado e trabalhoso. Acreditamos que isso também pode ser alcançado treinando um LLM com dados sintéticos apropriados, uma ideia ainda a ser verificada na prática.</p>
+	
+	
+	<p class="light">O <a style="font-weight:bolder;">completador de palavras</a> usada nos protótipos de Nheengatu usou uma variação das técnicas usadas pelo dicionário de palavras, com base em pesquisas parciais no banco de dados de palavras. As palavras parcialmente inseridas foram comparadas com a lista de palavras válidas e as palavras mais prováveis foram listadas em ordem alfabética.</p>
+	
+	
+	<p class="light">O <a style="font-weight:bolder;">preditor da próxima palavra</a> usado nos protótipos do Nheengatu foi implementadp como um modelo de aprendizado de ''bag-of-words'', treinado com frases extraídas dos conjuntos de dados bilíngues criados para o treinamento dos tradutores. A predição da próxima palavra é uma tarefa extremamente dependente do contexto e o bom desempenho geralmente é alcançado por meio da personalização, ou seja, do aprendizado das palavras mais usadas por um indivíduo. Nesta versão inicial, no entanto, nos concentramos em um conjunto de treinamento de uso geral em que decompomos as frases originais em subfrases com até cinco tokens e usamos o token subsequente como rótulo para treinar um classificador baseado em SVM. Em tempo de execução, quando o usuário digita no assistente de escrita, o sistema envia as palavras digitadas para o classificador e que sugere a próxima palavra.</p>
+	
+	
+	<p class="light">Implantamos uma versão inicial do <a style="font-weight:bolder;">corretor ortográfico</a> nos protótipos do Nheengatu usando uma estrutura baseada em LLM, mas focada apenas em marcadores especiais de tonicidade. A ideia básica é primeiro gerar um conjunto de dados com pares de frases corretas e incorretas, onde as versões incorretas são criadas sinteticamente alterando, removendo ou adicionando letras, seguindo padrões humanos comuns de produção de erros de digitação. Primeiramente, implementamos essa metodologia com um conjunto de dados em língua portuguesa, onde obtivemos uma precisão de cerca de 60,8%. Atualmente, estamos no processo de aplicação da mesma metodologia ao Nheengatu, usando frases extraídas dos conjuntos de dados bilíngues criados para o treinamento dos tradutores, como fizemos com a ferramenta de previsão de palavras seguintes.</p>
+	
+	
+	
   <!-- InstanceEndEditable --><!-- Footer Section -->
   <hr color="#646464" style="width:89.5%;height:0px;margin-left:0px;margin-bottom:-3px; margin-top: 30px">
 	<img src="../images/top%20motif.jpg"  alt="" width="89.5%"/>
